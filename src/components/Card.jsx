@@ -1,9 +1,13 @@
 import "./Card.css";
+import { useState } from "react";
 
 export function Card(props) {
   const user = props.user;
 
-  
+  const [isFavorite, setIsFavorite] = useState(false);
+  function handleFavoriteButtonClick() {
+    setIsFavorite(!isFavorite)
+  }
 
 
 
