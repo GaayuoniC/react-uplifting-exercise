@@ -17,6 +17,7 @@ export function Card(props) {
       <h2>{`${user.name.first} ${user.name.last}`}</h2>
       <p>{user.location.country}</p>
       <p>{user.dob.age} years</p>
+      <img className="favorite" src={isFavorite ? "like.png" : "dislike.png"} alt="" />
     </div>
   );
 }
