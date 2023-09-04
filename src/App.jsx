@@ -25,6 +25,8 @@ function App() {
       .sort((a, b) => (a.name.last > b.name.last ? 1 : -1));
   }
   // Check the state: if it's "men", populate filteredUsers with male users from the users array
+  const [isFavorite, setIsFavorite] = useState(false);
+  function handleFavoriteButtonClick() {}
 
   return (
     <>
