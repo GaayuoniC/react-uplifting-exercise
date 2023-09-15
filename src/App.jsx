@@ -31,6 +31,7 @@ function App() {
       <header>
         <h1>Array function magic</h1>
         <p>{activeFilter}</p>
+        <p>Favorite Counter:</p>
       </header>
       <main>
         <section className="filter-box">
